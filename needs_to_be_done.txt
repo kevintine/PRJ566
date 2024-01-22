@@ -1,0 +1,7 @@
+send the email. DONE*
+create the page to be clicked on in the email DONE*
+get redirected to the page DONE*
+user enters new password done*
+update database with that password
+	need to be authenticated to know the user id
+	

@@ -24,11 +24,15 @@ function Navbar(){
                             <Link className="nav-link" to="/home">Home</Link>
                         </li>
                         <li className="nav-item">
-                            <Link className="nav-link" to="/login">Login</Link>
+                            <Link className="nav-link" to="/RegisterPage">Register Page</Link>
                         </li>
                         <li className="nav-item">
-                            <Link className="nav-link" to="/recoverpassword">RecoverPassword</Link>
+                            <Link className="nav-link" to="/LoginPage">Login Page</Link>
                         </li>
+                        <li className="nav-item">
+                            <Link className="nav-link" to="/MyPage">MyPage</Link>
+                        </li>
+
                         </ul>
                     </div>
                 </div>

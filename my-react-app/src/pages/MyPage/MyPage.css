@@ -1,0 +1,43 @@
+
+.mypage-container {
+    max-width: 600px;
+    margin: auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    margin-top: 50px;
+  }
+ 
+  .mypage-container h2 {
+    text-align: center;
+  }
+  
+  .mypage-container p {
+    margin-bottom: 10px;
+  }
+  
+  .mypage-container label {
+    display: block;
+    margin-bottom: 8px;
+  }
+  
+  .mypage-container input {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 16px;
+  }
+  
+  .mypage-container button {
+    width: 100%;
+    padding: 10px;
+    background-color: #4caf50;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .mypage-container button:hover {
+    background-color: #45a049;
+  }
+  

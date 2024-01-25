@@ -14,21 +14,21 @@ const ResetPassword = ({ userId }) => {
         justifyContent: 'center',
     };
     const handlePasswordChange = async () => {
-    //   try {
-    //     // Send a PUT request to update the password
-    //     const response = await fetch(`http://localhost:5000/api/users/${userId}/update-password`, {
-    //       method: 'PUT',
-    //       headers: {
-    //         'Content-Type': 'application/json',
-    //       },
-    //       body: JSON.stringify({ newPassword }),
-    //     });
+      try {
+        // Send a PUT request to update the password
+        const response = await fetch(`http://localhost:5000/api/users/${userId}/update-password`, {
+          method: 'PUT',
+          headers: {
+            'Content-Type': 'application/json',
+          },
+          body: JSON.stringify({ newPassword }),
+        });
   
-    //     const updatedUser = await response.json();
-    //     console.log('Password updated:', updatedUser);
-    //   } catch (error) {
-    //     console.error('Error updating password:', error);
-    //   }
+        const updatedUser = await response.json();
+        console.log('Password updated:', updatedUser);
+      } catch (error) {
+        console.error('Error updating password:', error);
+      }
     };
   
     return (

@@ -1,9 +1,12 @@
 import React, { useState } from 'react';
-
+import { useLocation, useParams } from 'react-router-dom';
 
 const ResetPassword = ({ userId }) => {
+    const { email: paramEmail } = useParams();
+    const location = useLocation();
+    const queryParams = new URLSearchParams(location.search);
+    const email = queryParams.get('email') || paramEmail; // Use paramEmail as a fallback
     const [newPassword, setNewPassword] = useState('');
-  
 
     const LoginPageStyle = {
         backgroundColor: '#9f5afd', // Replace with your desired color
@@ -14,9 +17,10 @@ const ResetPassword = ({ userId }) => {
         justifyContent: 'center',
     };
     const handlePasswordChange = async () => {
+      console.log(email);
       try {
         // Send a PUT request to update the password
-        const response = await fetch(`http://localhost:5000/api/users/${userId}/update-password`, {
+        const response = await fetch(`http://localhost:5000/update-password/${encodeURIComponent(email)}`, {
           method: 'PUT',
           headers: {
             'Content-Type': 'application/json',

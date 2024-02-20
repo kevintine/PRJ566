@@ -1,0 +1,20 @@
+.hero-content{
+    margin-left: -50%;
+    margin-top: -5%;
+    color: aliceblue;
+}
+.btn{
+    background-color: #f47b24;
+    color: aliceblue;
+    border-radius: '120px';
+}
+.card{
+    background-color: #32478d;
+    color: aliceblue;
+    margin-top: 3%;
+    height: 250px;
+}
+.cards{
+    padding:  0%;
+    
+}

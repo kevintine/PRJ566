@@ -59,7 +59,7 @@ export default class Home extends Component {
       <div className="cards container mt-1">
       <div className="row">
             <div className="col-md-4">
-              <div className="card">
+              <div className="hcard card">
                 <div className="card-body">
                   <h5 className="card-title">Online Orders</h5>
                   <p className="card-text">Order drinks and food online for your convenience.</p>
@@ -68,7 +68,7 @@ export default class Home extends Component {
               </div>
             </div>
             <div className="col-md-4">
-              <div className="card">
+              <div className="hcard card">
                 <div className="card-body">
                   <h5 className="card-title">Player Rankings</h5>
                   <p className="card-text">Check out the latest player rankings and see where you stand.</p>
@@ -77,7 +77,7 @@ export default class Home extends Component {
               </div>
             </div>
             <div className="col-md-4">
-              <div className="card">
+              <div className="hcard card">
                 <div className="card-body">
                   <h5 className="card-title">Lucky Strike</h5>
                   <p className="card-text">

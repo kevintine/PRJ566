@@ -26,21 +26,12 @@ module.exports = function (app) {
     userController.adminBoard
   );
 
-<<<<<<< HEAD
-  app.get("/api/auth/history/:userId", userController.history);
 
-=======
->>>>>>> c02d48749df7e4423ec155b58ac2efc62bc5a95a
   app.put(
     "/api/auth/update",
     [authJwt.verifyToken],
     userController.updateProfile
   );
 
-<<<<<<< HEAD
-  app.post("/api/auth/upload", [authJwt.verifyToken], userController.upload);
-
-=======
->>>>>>> c02d48749df7e4423ec155b58ac2efc62bc5a95a
   app.delete("/api/auth/delete/:userId", userController.deleteUser);
 };

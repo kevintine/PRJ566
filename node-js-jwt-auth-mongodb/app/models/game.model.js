@@ -1,7 +1,9 @@
+
+/*
 const mongoose = require("mongoose");
 //const FrameSchema = require("./frame.model");
 
-const GameSchema = new mongoose.Schema({
+const GameSchema = new  ({
   // bowlingAlleys: [BowlingAlleySchema],
   bowlingAlleys: [
     { type: mongoose.Schema.Types.ObjectId, ref: "BowlingAlley" },
@@ -16,3 +18,4 @@ const GameSchema = new mongoose.Schema({
 
 const GameModel = mongoose.model("Game", GameSchema);
 module.exports = GameModel;
+*/

@@ -1,0 +1,40 @@
+/* BowlingScoreDisplay.css */
+.fixed-width-name {
+    width: 50px; /* Adjust the width as needed */
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+ 
+ 
+.align-middle {
+  vertical-align: middle !important;
+}
+ 
+/* In your CSS file */
+.bowling-table {
+    table-layout: fixed;
+}
+ 
+.bowling-table tbody tr {
+    height: 50px; /* Adjust the height value as needed */
+}
+ 
+/* BowlingScoreDisplay.css */
+.inner-table {
+    font-size: 12px; /* Decrease font size to make text fit better */
+}
+ 
+.inner-table tbody tr {
+    height: 20px; /* Set a fixed height for table rows */
+    overflow: hidden; /* Hide overflowing content */
+}
+ 
+/* BowlingScoreDisplay.css */
+ 
+/* Add dark green background and light green text to <th> elements */
+th {
+    background-color: darkgreen;
+    color: lightgreen;
+}
+ 

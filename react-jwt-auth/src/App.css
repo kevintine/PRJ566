@@ -31,17 +31,3 @@ label {
   -webkit-border-radius: 50%;
   border-radius: 50%;
 }
-
-.navbar{
-  
-  background-color: #32478d;
-  
-}
-.navbar-brand{
-  margin: 0 2%;
-  color: #f47b24;
-}
-.nav-link{
-  
-  color: aliceblue;
-}

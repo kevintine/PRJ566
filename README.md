@@ -34,3 +34,12 @@ npm install jwt
 npm install passport
 npm install cors
 ```
+## Sprint 2 Completed
+
+There are still some issues that have to be pushed onto the next sprint but hopefully they can be completed over the study break. 
+
+- Real time scoring updates
+- Ability to switch and assign bowling alleys
+- Begin a game with a logged in user
+- Initiate games with registered users
+- Display game history for a logged in user

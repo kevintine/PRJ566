@@ -55,7 +55,11 @@ class Login extends Component {
     if (this.checkBtn.context._errors.length === 0) {
       AuthService.login(this.state.username, this.state.password).then(
         () => {
+<<<<<<< HEAD
+          this.props.router.navigate("/dashboard");
+=======
           this.props.router.navigate("/profile");
+>>>>>>> c02d48749df7e4423ec155b58ac2efc62bc5a95a
           window.location.reload();
         },
         (error) => {
@@ -84,6 +88,13 @@ class Login extends Component {
     window.location.href = "/recoverPassword";
   };
 
+<<<<<<< HEAD
+  handleSignin = () => {
+    window.location.href = "/register";
+  };
+
+=======
+>>>>>>> c02d48749df7e4423ec155b58ac2efc62bc5a95a
   render() {
     return (
       <div className="col-md-12">
@@ -159,6 +170,14 @@ class Login extends Component {
               Forgot Password?
             </button>
           </div>
+<<<<<<< HEAD
+          <div className="form-group">
+            <button className="btn btn-link" onClick={this.handleSignin}>
+              Don't have an account yet?
+            </button>
+          </div>
+=======
+>>>>>>> c02d48749df7e4423ec155b58ac2efc62bc5a95a
         </div>
       </div>
     );

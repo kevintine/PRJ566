@@ -13,23 +13,20 @@ import BoardModerator from "./components/board-moderator.component";
 import BoardAdmin from "./components/board-admin.component";
 import RecoverPassword from "./components/recoverPassword.component";
 import ResetPassword from "./components/resetPassword.component";
-<<<<<<< HEAD
 import Dashboard from "./components/dashboard.component";
 import MaintenanceScheduler from "./components/MaintenanceScheduler";
 import ReportScheduler from "./components/ReportScheduler";
 import SummaryPage from "./components/SummaryPage";
 
-// import AuthVerify from "./common/auth-verify";
 import EventBus from "./common/EventBus";
 import GameHistory from "./components/history.component";
 import UserNumber from "./components/quickStart.component";
 import BowlingScoreDisplay from "./components/bowlingScoreDisplay.component";
-=======
 
-// import AuthVerify from "./common/auth-verify";
-import EventBus from "./common/EventBus";
->>>>>>> c02d48749df7e4423ec155b58ac2efc62bc5a95a
+// Sprint 3
+import OrderPage from "./components/OrderPage"
 import SendReceipt from "./components/sendReceipt.component";
+
 class App extends Component {
   constructor(props) {
     super(props);
@@ -104,13 +101,8 @@ class App extends Component {
 
             {currentUser && (
               <li className="nav-item">
-<<<<<<< HEAD
                 <Link to={"/dashboard"} className="nav-link">
                   Dashboard
-=======
-                <Link to={"/user"} className="nav-link">
-                  User
->>>>>>> c02d48749df7e4423ec155b58ac2efc62bc5a95a
                 </Link>
               </li>
             )}
@@ -142,7 +134,6 @@ class App extends Component {
                   Sign Up
                 </Link>
               </li>
-<<<<<<< HEAD
               <li className="nav-item">
                 <Link to={"/maintenance"} className="nav-link">
                   Schedule Maintenance
@@ -153,8 +144,6 @@ class App extends Component {
                   Schedule Reports
                 </Link>
               </li>
-=======
->>>>>>> c02d48749df7e4423ec155b58ac2efc62bc5a95a
             </div>
           )}
         </nav>
@@ -172,7 +161,6 @@ class App extends Component {
             <Route path="/recoverpassword" element={<RecoverPassword />} />
             <Route path="/resetpassword/:email" element={<ResetPassword />} />
             <Route path="/resetpassword" element={<ResetPassword />} />
-<<<<<<< HEAD
             <Route path="/dashboard" element={<Dashboard />} />
             <Route path="/history" element={<GameHistory />} />
             <Route path="/quickStart" element={<UserNumber />} />
@@ -182,14 +170,11 @@ class App extends Component {
             />
             <Route path="/maintenance" element={<MaintenanceScheduler />} />
             <Route path="/reports" element={<ReportScheduler />} />
-            <Route path="/summary" element={<SummaryPage />} /> {/* Add the route for SummaryPage */}
-=======
->>>>>>> c02d48749df7e4423ec155b58ac2efc62bc5a95a
+            <Route path="/summary" element={<SummaryPage />} />
+            <Route path="/orders" element={<OrderPage/>} />
             <Route path="/sendReceipt" element={<SendReceipt/>} />
           </Routes>
         </div>
-
-        {/* <AuthVerify logOut={this.logOut}/> */}
       </div>
     );
   }

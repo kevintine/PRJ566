@@ -1,13 +1,8 @@
 import React, { Component } from "react";
-<<<<<<< HEAD
 import { Link } from "react-router-dom";
 import UserService from "../services/user.service";
 import bowlingBackground from "../assets/images/BowlingbackGround.png";
 import "./home.css";
-=======
-
-import UserService from "../services/user.service";
->>>>>>> c02d48749df7e4423ec155b58ac2efc62bc5a95a
 
 export default class Home extends Component {
   constructor(props) {
@@ -38,7 +33,6 @@ export default class Home extends Component {
 
   render() {
     return (
-<<<<<<< HEAD
       <div>
         <div
           className="hero-section"
@@ -106,12 +100,11 @@ export default class Home extends Component {
             </div>
           </div>
         </div>
-=======
-      <div className="container">
-        <header className="jumbotron">
-          <h3>{this.state.content}</h3>
-        </header>
->>>>>>> c02d48749df7e4423ec155b58ac2efc62bc5a95a
+        <div className="container">
+          <header className="jumbotron">
+            <h3>{this.state.content}</h3>
+          </header>
+        </div>
       </div>
     );
   }

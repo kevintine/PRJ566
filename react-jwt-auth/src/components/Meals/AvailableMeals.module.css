@@ -1,0 +1,41 @@
+/* Sprint3- Ingeol Ko */
+/* AvailableMeals.module.css */
+.menu-buttons {
+  display: flex;
+  justify-content: flex-start; 
+  margin-bottom: 1rem;
+}
+
+.menu-buttons button {
+  background-color: #4CAF50; 
+  border: none;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  padding: 10px 20px;
+}
+
+.menu-buttons button.active {
+  background-color: #008CBA; 
+}
+
+
+/* Add animation to buttons */
+@keyframes button-appear {
+  from {
+    opacity: 0;
+    transform: translateY(3rem);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.menu-buttons button {
+  animation: button-appear 1s ease-out forwards;
+}

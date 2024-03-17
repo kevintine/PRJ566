@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 /* General Styles */
 body, html {
   background-color: #eef2f7;
@@ -183,7 +183,7 @@ input[type='file'] {
     margin-top: 10px;
   }
 }
-=======
+
 .profile-container {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
@@ -211,4 +211,4 @@ input[type='file'] {
     display: inline-block;
     width: 100px;
    }
->>>>>>> c02d48749df7e4423ec155b58ac2efc62bc5a95a
+

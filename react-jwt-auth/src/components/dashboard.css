@@ -1,0 +1,29 @@
+.dashboard-container {
+    padding: 20px;
+  }
+  
+  .user-profile-section {
+    background-color: #f8f9fa;
+    padding: 20px;
+    border-radius: 10px;
+  }
+  
+  .profile-picture {
+    width: 100px;
+    height: 100px;
+  }
+  
+  .username {
+    margin-bottom: 0;
+  }
+  
+  .user-details-container {
+    margin-top: 20px;
+  }
+  
+  .game-history-container {
+    margin-top: 20px;
+  }
+  
+  /* Additional styling can be added as needed */
+  

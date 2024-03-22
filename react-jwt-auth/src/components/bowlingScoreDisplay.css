@@ -1,0 +1,98 @@
+/* BowlingScoreDisplay.css */
+/* In your CSS file */
+.bowling-table-container {
+  width: 100%; /* Set the width to 100% to fill the entire screen */
+  height: 800px; /* Set the height to 90% of the viewport height */
+  overflow-x: auto; /* Add horizontal scroll if content overflows */
+  overflow-y: auto; /* Add vertical scroll if content overflows */
+}
+
+.bowling-table {
+  table-layout: fixed;
+  width: 100%; /* Occupy full width of the container */
+}
+
+.bowling-table tbody {
+  height: 300px; /* Set the height to 60% of the container height */
+  overflow-y: auto; /* Add vertical scroll if content overflows */
+}
+
+/* Add dark green background and light green text to <th> elements */
+.bowling-table th,
+.bowling-table td {
+  background-color: darkgreen;
+  color: lightgreen;
+  border: 1px solid black;
+  width: 10%; /* Set the fixed width for each column */
+  white-space: nowrap; /* Prevent text wrapping */
+  text-align: center; /* Center-align text */
+}
+
+/* Increase the font size and make the total score bold */
+.bowling-table td.align-middle:last-child {
+  font-size: 16px; /* Adjust the font size as needed */
+  font-weight: bold; /* Make the text bold */
+}
+
+/* Add dark green background and light green text to <th> elements */
+.bowling-table th {
+  background-color: lightgreen; /* Set the background color of table headers to light green */
+  color: darkgreen; /* Set the text color of table headers to dark green */
+  border: 1px solid black;
+  white-space: nowrap; /* Prevent text wrapping */
+  text-align: center; /* Center-align text */
+}
+
+/* Adjust the layout for roll and score boxes */
+.frame-info {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.roll-box,
+.score-box {
+  border: 1px solid black;
+  padding: 5px;
+  margin: 5px 0;
+  font-size: 16px; /* Adjust the font size as needed */
+  font-weight: bold; /* Make the text bold */
+}
+
+.roll-box {
+  margin-right: 10px; /* Add margin between roll boxes */
+  flex: 1; /* Equal width for both roll boxes */
+}
+
+.score-box {
+  background-color: lightgreen;
+  color: darkgreen;
+  flex: 1; /* Equal width for score box */
+}
+
+/* Increase the font size of the total score cells */
+.bowling-table td.align-middle:last-child {
+  font-size: 16px; /* Adjust the font size as needed */
+}
+
+.roll-score-container {
+  display: flex; /* Use flexbox */
+}
+
+/* Apply mahogany color to th and td when gameEnded is true */
+.bowling-table-container.game-ended th,
+.bowling-table-container.game-ended td {
+  background-color: #a30808; /* Adjust the hex code to the desired shade of mahogany */
+  color: white; /* Text color */
+}
+
+.score-box.game-ended {
+  background-color: purple;
+  color: white;
+  flex: 1;
+}
+
+
+
+
+ 

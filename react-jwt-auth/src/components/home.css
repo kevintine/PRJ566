@@ -1,0 +1,11 @@
+.hero-content{
+    margin-left: -50%;
+    margin-top: -5%;
+    color: aliceblue;
+}
+
+.heroBtn{
+    background-color: #f47b24;
+    color: aliceblue;
+    border-radius: '120px';
+}

@@ -1,0 +1,77 @@
+ .AccContainer {
+  max-width: 100%; 
+  margin: 50px auto; 
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  background-color: #f8f9fa; 
+  background-image: url('../../assets/images/BowlingbackGround.png');
+  background-size: cover;
+  background-position: right;
+}
+ 
+ 
+.AccContainer .profile-img-card {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  margin: 0 auto 20px;
+  display: block;
+}
+ 
+.AccContainer .form-group {
+  margin-bottom: 20px;
+}
+ 
+.AccContainer .form-control {
+  width: 100%;
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+ 
+ 
+.Accbtn {
+  background:#e91e63;
+  color:white;
+  display:block;
+  width:92.5%;
+  max-width:680px;
+  height:50px;
+  border-radius:8px;
+  margin:0 auto;
+  border:none;
+  cursor:pointer;
+  font-size:14px;
+  font-family: 'Montserrat', sans-serif;
+  box-shadow:0 15px 30px rgba(#e91e63,.36);
+transition:.2s linear;
+&:hover{
+   box-shadow:0 0 0 rgba(#e91e63,.0);
+}
+}
+ 
+.AccContainer .alert {
+  padding: 10px;
+  margin-bottom: 20px;
+  border-radius: 5px;
+}
+ 
+.AccContainer .alert-danger {
+  background-color: #f8d7da;
+  color: #721c24;
+  border: 1px solid #f5c6cb;
+}
+ 
+.AccContainer .alert-success {
+  background-color: #d4edda;
+  color: #155724;
+  border: 1px solid #c3e6cb;
+}
+ 
+.myClass {
+  background-image: url('../../assets/images/BowlingbackGround.png');
+  background-size: cover;
+  background-position: center;
+}

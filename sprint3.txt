@@ -1,0 +1,24 @@
+Use Case Real Time Updates
+
+The bowling script sends frame requests to the backend add-frame-to-bowling-alley.
+
+Now in that backend route, everytime it is hit, send a request to the react
+frontend.
+	- I'm using Server Side Events (SSE)
+	- I'm currently implementing SSE. Just changed the /add-frames route, 
+	  now I'm creating an SSE route. 
+
+Ohhh, so when the frame is sent to the frontend, we need the player Id to go along with it.
+
+---------------------------------------------------------------------
+
+Alright so we got the data to display real time!!!
+
+Now we need to integrate the old way display back. 
+	- Display new colour table once all frames are filled. 
+	- Update totals
+
+Bowling display only works with quick start, get it to work with a logged in user.
+
+Allow for Lane selection
+

@@ -352,10 +352,10 @@ app.post(
           currentPlayer: null, // Set the current player to null initially
           totalFrames: 10, // Set the total number of frames for the game
           gameOver: false, // Set the game over flag to false initially
-          totalScore: 0, // Initialize total score to 0
+          totalScore: 76, // Initialize total score to 0
           frameScores: [], // Initialize frame scores array
-          strikes: 0, // Initialize strikes count
-          spares: 0, // Initialize spares count
+          strikes: 4, // Initialize strikes count
+          spares: 1, // Initialize spares count
           gamesPlayed: 0, // Initialize games played count
         });
 
